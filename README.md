@@ -42,8 +42,6 @@ Flutter Expense Tracker
 
 Firebase Authentication · Budget Management · Expense Tracking · Modern UI · Riverpod State Management
 
-📊 GitHub Analytics
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=programmer-brijesh&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" /> <img src="https://github-readme-streak-stats.herokuapp.com?user=programmer-brijesh&theme=radical&hide_border=true" alt="GitHub Streak" width="48%" /> </p><p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=programmer-brijesh&layout=compact&theme=radical&hide_border=true" alt="Top Languages" /> </p><p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"> <img src="https://github-profile-trophy.vercel.app/?username=programmer-brijesh&theme=radical&row=1&no-frame=true" alt="GitHub Trophies" /> </a> </p><p align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=programmer-brijesh&theme=react-dark&hide_border=true&area=true" alt="Activity Graph" /> </p>
 ✍️ Random Dev Quote
 <p align="center"> <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Quote" /> </p>
 🌱 Currently Learning
