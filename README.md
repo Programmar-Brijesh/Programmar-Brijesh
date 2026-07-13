@@ -1,93 +1,83 @@
-<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Brijesh%20Verma&fontSize=60&fontAlignY=35&desc=Backend%20Developer%20|%20PHP%20Laravel%20|%20CSE%20Student&descAlignY=55&animation=fadeIn"/> </p><p align="center"> <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Brijesh+Verma;Programmer+Brijesh;PHP+Laravel+Developer;Backend+Engineer;Building+Scalable+APIs;Solving+Production+Bugs" alt="Typing SVG" /></a> </p><p align="center"> <img src="https://komarev.com/ghpvc/?username=programmer-brijesh&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" /> <a href="https://github.com/programmer-brijesh?tab=followers"><img src="https://img.shields.io/github/followers/programmer-brijesh?label=Followers&style=social" alt="GitHub Followers" /></a> <a href="https://github.com/programmer-brijesh?tab=stars"><img src="https://img.shields.io/github/stars/programmer-brijesh?style=social" alt="GitHub Stars" /></a> </p>
-<img align="right" alt="Developer GIF" width="380" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=220&section=header&text=Programmer%20Brijesh&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=PHP%20Laravel%20Developer%20|%20Backend%20Engineer&descAlignY=55&descSize=20" width="100%"/><div align="center">
+https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&pause=1000&color=0E75B6&center=true&vCenter=true&width=650&lines=PHP+Laravel+Developer;Backend+Engineer;Flutter+Learner;API+Integration+Specialist;Building+Scalable+Systems
+
+</div><h1 align="center">Brijesh Verma</h1> <h3 align="center">PHP Laravel Developer • Backend Engineer • Flutter Enthusiast</h3><p align="center"> <i>Building reliable, production-ready backend systems that power modern applications. I turn complex business logic into clean, maintainable code.</i> </p>
+<div align="center"> <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00c6ff,100:0072ff&height=3&section=header" width="100%"/> </div><div align="center">
+https://komarev.com/ghpvc/?username=programmer-brijesh&label=Profile%2520Views&color=0e75b6&style=flat
+https://img.shields.io/github/followers/programmer-brijesh?label=Follow&style=social
+https://img.shields.io/github/stars/programmer-brijesh?affiliations=OWNER&style=social
+
+</div>
 👨‍💻 About Me
-🎓 Final Year Diploma in Computer Science & Engineering at CSJM Government Polytechnic Akbarpur
+<table> <tr> <td width="60%">
+yaml
+name: Brijesh Verma
+located_in: Uttar Pradesh, India
+education: Final Year Diploma in Computer Science & Engineering
+college: CSJM Government Polytechnic Akbarpur
+role: PHP Laravel Developer | Backend Engineer
+passion: Building clean, scalable backend architectures
+currently: Diving deep into Flutter & Firebase
+</td> <td width="40%"> <p align="center"> <img src="https://raw.githubusercontent.com/Programmer-Brijesh/Programmer-Brijesh/main/assets/coding.gif" width="200"/> </p> </td> </tr> </table>
+💼 Current Work
+I’m currently working as a PHP Laravel Developer, crafting robust backend systems and seamless integrations.
 
-💼 Currently working as a PHP Laravel Developer
+🔷 Laravel Development – APIs, authentication, queue jobs, task scheduling
 
-⚙️ Passionate about backend development, scalable architecture, and API integrations
+🛒 Shopify Applications – OAuth, webhooks, admin extensions
 
-🐞 I enjoy debugging, optimizing, and building production-ready systems
+📦 Amazon Seller Central Integration – SP-API, inventory sync, product management
 
-📚 Constantly learning and exploring new tools & patterns
+💳 Stripe Billing & Subscriptions – Recurring payments, plan management
 
-📍 Based in Uttar Pradesh, India
+🔐 OAuth & Secure Integrations – Third-party app connections
 
+⚙️ REST APIs & Backend Architecture – Performance, caching, logging
 
-🚧 Current Work
-Building enterprise Shopify applications with heavy focus on:
+🧩 Featured Projects
 
-<p> <code>Shopify Admin API</code> <code>Amazon SP-API</code> <code>Stripe Billing</code> <code>Subscriptions</code> <code>Inventory Sync</code> <code>Product Sync</code> <code>OAuth Authentication</code> <code>Dynamic Product Management</code> </p>
+<table> <tr> <td width="50%"> <h3 align="center">🔄 AmazonSync</h3> <p align="center"> Enterprise Shopify app integrating Amazon Seller Central </p> <p> ✅ Shopify OAuth & App Bridge<br> ✅ Amazon SP-API integration<br> ✅ Real-time inventory & product sync<br> ✅ Subscription plans via Stripe<br> ✅ Dynamic product schema mapping<br> ✅ Admin dashboard & reporting </p> </td> <td width="50%"> <h3 align="center">🏨 Hostel Management</h3> <p align="center"> Complete hostel administration system </p> <p> 🛏️ Student & room allocation<br> 📋 Attendance & fee management<br> 📝 Complaint & maintenance tracking<br> 📊 Reports & analytics<br> 👥 Role-based access control </p> </td> </tr> <tr> <td colspan="2" align="center"> <h3>💰 SpendWise – Personal Finance App (Flutter)</h3> <p> 🔐 Firebase Authentication<br> 📊 Expense tracking & budget planning<br> 🧩 Riverpod state management<br> 🎨 Modern Material Design UI </p> </td> </tr> </table>
 🛠️ Tech Stack
-<p align="center"> <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=php,laravel,js,dart,html,css,mysql,flutter,firebase,git,github,composer,vscode,postman,androidstudio,cloudflare&perline=8" alt="Tech Stack" /> </a> </p>
-⚡ Core Backend Skills
-<p align="center"> <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" /> <img src="https://img.shields.io/badge/Authentication-1B2B4F?style=for-the-badge&logo=auth0&logoColor=white" /> <img src="https://img.shields.io/badge/Middleware-EC1C24?style=for-the-badge" /> <img src="https://img.shields.io/badge/Service_Layer-4B8BBE?style=for-the-badge" /> <img src="https://img.shields.io/badge/Repository_Pattern-FFA500?style=for-the-badge" /> <img src="https://img.shields.io/badge/Eloquent_ORM-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" /> <img src="https://img.shields.io/badge/Validation-6C4298?style=for-the-badge" /> <img src="https://img.shields.io/badge/Caching-007396?style=for-the-badge" /> <img src="https://img.shields.io/badge/Logging-404D59?style=for-the-badge" /> <img src="https://img.shields.io/badge/REST_API-02569B?style=for-the-badge" /> <img src="https://img.shields.io/badge/Webhooks-FF6C37?style=for-the-badge" /> <img src="https://img.shields.io/badge/Database_Design-336791?style=for-the-badge&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/OAuth-4285F4?style=for-the-badge" /> <img src="https://img.shields.io/badge/Production_Debugging-232F3E?style=for-the-badge" /> </p>
-🖥️ Frontend (When Needed)
-<p align="center"> <img src="https://img.shields.io/badge/Blade-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" /> <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/AJAX-0769AD?style=for-the-badge" /> <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" /> <img src="https://img.shields.io/badge/DataTables-1B2B4F?style=for-the-badge" /> <img src="https://img.shields.io/badge/Responsive_UI-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> </p>
-📱 Flutter
-<p align="center"> <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" /> <img src="https://img.shields.io/badge/Riverpod-06B6D4?style=for-the-badge" /> <img src="https://img.shields.io/badge/Firebase_Auth-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" /> <img src="https://img.shields.io/badge/Go_Router-00B4D8?style=for-the-badge" /> <img src="https://img.shields.io/badge/Material_Design-757575?style=for-the-badge&logo=material-design&logoColor=white" /> </p>
-🚀 Projects
-🔁 AmazonSync
-Enterprise Shopify Application
+<h3 align="center">Languages & Frameworks</h3><p align="center"> <img src="https://skillicons.dev/icons?i=php,laravel,dart,flutter,js,html,css,mysql,firebase&perline=9" /> </p><h3 align="center">Tools & Platforms</h3><p align="center"> <img src="https://skillicons.dev/icons?i=git,github,postman,vscode,androidstudio,composer,cloudflare&perline=7" /> </p>
+💻 Backend Expertise	📱 Mobile (Flutter)	🔌 API Integrations
+https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white	https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white	https://img.shields.io/badge/Shopify-7AB55C?style=for-the-badge&logo=shopify&logoColor=white https://img.shields.io/badge/Amazon_SP--API-FF9900?style=for-the-badge&logo=amazon&logoColor=white
+REST APIs • Authentication • Eloquent ORM • Middleware • Caching • Queues • Webhooks • Debugging	Riverpod • Go Router • Firebase Auth • Material Design	https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white OAuth 2.0 • Webhooks
+📊 GitHub Analytics
+<div align="center"> <img src="https://github-readme-stats.vercel.app/api?username=programmer-brijesh&show_icons=true&theme=radical&hide_border=true&count_private=true" width="48%" /> <img src="https://github-readme-streak-stats.herokuapp.com/?user=programmer-brijesh&theme=radical&hide_border=true" width="48%" /> </div>
+<div align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=programmer-brijesh&layout=compact&theme=radical&hide_border=true" width="38%" /> <img src="https://github-readme-activity-graph.vercel.app/graph?username=programmer-brijesh&theme=react-dark&hide_border=true&area=true" width="58%" /> </div>
+<div align="center"> <img src="https://github-profile-trophy.vercel.app/?username=programmer-brijesh&theme=radical&no-frame=true&row=1&column=6" width="90%" /> </div>
+<div align="center"> <img src="https://raw.githubusercontent.com/programmer-brijesh/programmer-brijesh/output/github-contribution-grid-snake.svg" width="90%" /> <br><sub>🐍 Contribution snake powered by GitHub Actions</sub> </div>
+🎯 Current Focus & Learning
+🧠 Advanced Laravel – service container, pipelines, real-time events
 
-Shopify OAuth · Amazon Seller Central Integration · Inventory & Order Sync · Subscription Plans · Stripe Billing · Dynamic Amazon Product Schema · Dashboard & Admin Panel
+🏗️ System Design – scalable architecture, microservices patterns
 
-🏫 Hostel Management System
-Complete Hostel Administration
+📱 Flutter & Firebase – cross-platform app development
 
-Student Management · Room Allocation · Attendance · Fee Management · Complaint Management · Admin Dashboard · Reports
+⚡ Performance Optimization – query tuning, caching strategies
 
-💰 SpendWise
-Flutter Expense Tracker
+🧩 Design Patterns – clean code, SOLID principles
 
-Firebase Authentication · Budget Management · Expense Tracking · Modern UI · Riverpod State Management
+🧠 Development Philosophy
+<div align="center"> <img src="https://img.shields.io/badge/Philosophy-Build%20Maintainable%20Software-blue?style=for-the-badge" /> <br><br> <i>“Debug before guessing. Keep code clean. Optimize architecture. Write production‑ready solutions that stand the test of time.”</i> </div>
+🎈 Fun Facts
+🖥️ I enjoy debugging a tricky backend issue more than a perfect frontend UI
 
-✍️ Random Dev Quote
-<p align="center"> <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Quote" /> </p>
-🌱 Currently Learning
-<p align="center"> <code>Advanced Laravel</code> <code>System Design</code> <code>Flutter</code> <code>Firebase</code> <code>Performance Optimization</code> <code>Design Patterns</code> </p>
-⚡ Fun Facts
-🐞 I debug with dd() more than I sleep
+📚 I’m a lifelong learner – currently exploring system design and mobile development
 
-☕ Chai and clean code keep me going
+🤝 I love collaborating on open-source Laravel/API tools
 
-🧠 I believe in "debug before guessing"
+☕ Good code, black coffee, and calm music power my day
 
-🤝 Connect with Me
+🧩 Solving real-world integration puzzles (Shopify ↔ Amazon) excites me
 
-<p align="center">
-  <a href="https://github.com/programmer-brijesh">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
+🤝 Connect With Me
+<div align="center">
+https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
+https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
+https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white
 
-  <a href="https://www.linkedin.com/in/brijesh-verma-2038bb294">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-
-  <a href="mailto:brijeshverma8896@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-
-  <a href="https://brijeshdeveloper.netlify.app/">
-    <img src="https://img.shields.io/badge/Portfolio-0A0A0A?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
-  </a>
-</p>
-☕ Support My Work
-<p align="center"> <a href="https://www.buymeacoffee.com/programmerbrijesh"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" /></a> </p>
-<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=footer" /> </p>
-
-
-<!--
-**Programmar-Brijesh/Programmar-Brijesh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</div>
+💬 Random Dev Quote
+<div align="center"> <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" width="70%" /> </div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=120&section=footer" width="100%"/>
