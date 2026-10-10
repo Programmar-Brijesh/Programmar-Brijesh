@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="800" height="120">
+  <defs>
+    <style>
+      .bg { fill: #080B10; }
+      .line { stroke: #00E5FF; stroke-width: 1.5; stroke-dasharray: 4 4; animation: march 2s linear infinite; opacity: 0.6; }
+      .node-core { fill: #39FF88; filter: drop-shadow(0 0 8px #39FF88); animation: pulse 2s ease-in-out infinite alternate; }
+      .node-ring { fill: none; stroke: #39FF88; stroke-width: 2; animation: ripple 2.5s linear infinite; }
+      @keyframes march { to { stroke-dashoffset: -16; } }
+      @keyframes pulse { 0% { r: 4; } 100% { r: 7; } }
+      @keyframes ripple { 0% { r: 5; opacity: 1; } 100% { r: 40; opacity: 0; } }
+      .text-sys { font-family: 'Courier New', monospace; font-size: 12px; fill: #93A4B7; letter-spacing: 1px; }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" class="bg" />
+  
+  <!-- Data Streams -->
+  <line x1="100" y1="60" x2="400" y2="60" class="line" />
+  <line x1="700" y1="60" x2="400" y2="60" class="line" style="stroke: #39FF88; animation-direction: reverse;" />
+  
+  <!-- Signal Emitter Rings -->
+  <circle cx="400" cy="60" class="node-ring" />
+  <circle cx="400" cy="60" class="node-ring" style="animation-delay: 1.25s;" />
+  <circle cx="400" cy="60" r="5" class="node-core" />
+  
+  <!-- System Status Text -->
+  <text x="400" y="30" text-anchor="middle" class="text-sys">AWAITING_CONNECTION_REQUEST</text>
+  <text x="400" y="100" text-anchor="middle" class="text-sys" style="fill: #00E5FF; font-weight: bold;">STATUS: ONLINE</text>
+</svg>

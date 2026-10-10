@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 160" width="800" height="160">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&amp;display=swap');
+      .box { fill: #101720; stroke: #00E5FF; stroke-width: 2; rx: 6px; }
+      .box-txt { font-family: 'Fira Code', monospace; font-size: 13px; fill: #E8F0F7; text-anchor: middle; alignment-baseline: middle; }
+      .arrow { fill: none; stroke: #39FF88; stroke-width: 3; stroke-dasharray: 8 4; animation: flow 1s linear infinite reverse; }
+      @keyframes flow { to { stroke-dashoffset: 12; } }
+    </style>
+  </defs>
+
+  <!-- Connections -->
+  <path d="M 160 80 L 260 80" class="arrow" />
+  <path d="M 400 80 L 520 80" class="arrow" />
+  <path d="M 640 80 L 700 80" class="arrow" style="stroke: #E8F0F7;" />
+
+  <!-- Nodes -->
+  <rect x="20" y="50" width="140" height="60" class="box" />
+  <text x="90" y="80" class="box-txt">Flutter Client</text>
+
+  <rect x="260" y="50" width="140" height="60" class="box" style="stroke: #FFBD2E;" />
+  <text x="330" y="75" class="box-txt">Firebase Auth</text>
+  <text x="330" y="95" class="box-txt" style="font-size:10px; fill:#93A4B7">(Matchmaking)</text>
+
+  <rect x="520" y="40" width="120" height="80" class="box" style="stroke: #39FF88;" />
+  <text x="580" y="70" class="box-txt">Cloudflare</text>
+  <text x="580" y="90" class="box-txt" style="font-size:10px; fill:#93A4B7">(WebSockets)</text>
+
+  <rect x="700" y="50" width="80" height="60" class="box" style="stroke: #93A4B7; fill: #080B10;" />
+  <text x="740" y="80" class="box-txt">P1 &amp; P2</text>
+</svg>

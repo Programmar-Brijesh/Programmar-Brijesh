@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 160" width="800" height="160">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&amp;display=swap');
+      .box { fill: #101720; stroke: #39FF88; stroke-width: 2; rx: 6px; }
+      .box-txt { font-family: 'Fira Code', monospace; font-size: 14px; fill: #E8F0F7; text-anchor: middle; alignment-baseline: middle; }
+      .arrow { fill: none; stroke: #00E5FF; stroke-width: 3; stroke-dasharray: 8 4; animation: flow 1s linear infinite; }
+      @keyframes flow { to { stroke-dashoffset: -12; } }
+    </style>
+  </defs>
+  
+  <!-- Connections -->
+  <path d="M 160 80 L 320 80" class="arrow" />
+  <path d="M 480 80 L 640 80" class="arrow" />
+
+  <!-- Nodes -->
+  <rect x="20" y="50" width="140" height="60" class="box" />
+  <text x="90" y="80" class="box-txt">Shopify Store</text>
+
+  <rect x="320" y="40" width="160" height="80" class="box" style="stroke: #00E5FF;" />
+  <text x="400" y="70" class="box-txt">Laravel Backend</text>
+  <text x="400" y="90" class="box-txt" style="font-size:10px; fill:#93A4B7">(Sync Engine)</text>
+
+  <rect x="640" y="50" width="140" height="60" class="box" />
+  <text x="710" y="80" class="box-txt">Amazon SP-API</text>
+</svg>
