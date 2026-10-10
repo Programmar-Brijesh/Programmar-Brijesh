@@ -1,93 +1,234 @@
-<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Brijesh%20Verma&fontSize=60&fontAlignY=35&desc=Backend%20Developer%20|%20PHP%20Laravel%20|%20CSE%20Student&descAlignY=55&animation=fadeIn"/> </p><p align="center"> <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Brijesh+Verma;Programmer+Brijesh;PHP+Laravel+Developer;Backend+Engineer;Building+Scalable+APIs;Solving+Production+Bugs" alt="Typing SVG" /></a> </p><p align="center"> <img src="https://komarev.com/ghpvc/?username=programmer-brijesh&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" /> <a href="https://github.com/programmer-brijesh?tab=followers"><img src="https://img.shields.io/github/followers/programmer-brijesh?label=Followers&style=social" alt="GitHub Followers" /></a> <a href="https://github.com/programmer-brijesh?tab=stars"><img src="https://img.shields.io/github/stars/programmer-brijesh?style=social" alt="GitHub Stars" /></a> </p>
-<img align="right" alt="Developer GIF" width="380" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" />
-👨‍💻 About Me
-🎓 Final Year Diploma in Computer Science & Engineering at CSJM Government Polytechnic Akbarpur
+<div align="center">
+  <img src="assets/hero-banner.svg" alt="Brijesh Verma - Programmer Brijesh - DarkCypher" width="100%" />
 
-💼 Currently working as a PHP Laravel Developer
-
-⚙️ Passionate about backend development, scalable architecture, and API integrations
-
-🐞 I enjoy debugging, optimizing, and building production-ready systems
-
-📚 Constantly learning and exploring new tools & patterns
-
-📍 Based in Uttar Pradesh, India
-
-
-🚧 Current Work
-Building enterprise Shopify applications with heavy focus on:
-
-<p> <code>Shopify Admin API</code> <code>Amazon SP-API</code> <code>Stripe Billing</code> <code>Subscriptions</code> <code>Inventory Sync</code> <code>Product Sync</code> <code>OAuth Authentication</code> <code>Dynamic Product Management</code> </p>
-🛠️ Tech Stack
-<p align="center"> <a href="https://skillicons.dev"> <img src="https://skillicons.dev/icons?i=php,laravel,js,dart,html,css,mysql,flutter,firebase,git,github,composer,vscode,postman,androidstudio,cloudflare&perline=8" alt="Tech Stack" /> </a> </p>
-⚡ Core Backend Skills
-<p align="center"> <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" /> <img src="https://img.shields.io/badge/Authentication-1B2B4F?style=for-the-badge&logo=auth0&logoColor=white" /> <img src="https://img.shields.io/badge/Middleware-EC1C24?style=for-the-badge" /> <img src="https://img.shields.io/badge/Service_Layer-4B8BBE?style=for-the-badge" /> <img src="https://img.shields.io/badge/Repository_Pattern-FFA500?style=for-the-badge" /> <img src="https://img.shields.io/badge/Eloquent_ORM-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" /> <img src="https://img.shields.io/badge/Validation-6C4298?style=for-the-badge" /> <img src="https://img.shields.io/badge/Caching-007396?style=for-the-badge" /> <img src="https://img.shields.io/badge/Logging-404D59?style=for-the-badge" /> <img src="https://img.shields.io/badge/REST_API-02569B?style=for-the-badge" /> <img src="https://img.shields.io/badge/Webhooks-FF6C37?style=for-the-badge" /> <img src="https://img.shields.io/badge/Database_Design-336791?style=for-the-badge&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/OAuth-4285F4?style=for-the-badge" /> <img src="https://img.shields.io/badge/Production_Debugging-232F3E?style=for-the-badge" /> </p>
-🖥️ Frontend (When Needed)
-<p align="center"> <img src="https://img.shields.io/badge/Blade-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" /> <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/AJAX-0769AD?style=for-the-badge" /> <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" /> <img src="https://img.shields.io/badge/DataTables-1B2B4F?style=for-the-badge" /> <img src="https://img.shields.io/badge/Responsive_UI-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> </p>
-📱 Flutter
-<p align="center"> <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" /> <img src="https://img.shields.io/badge/Riverpod-06B6D4?style=for-the-badge" /> <img src="https://img.shields.io/badge/Firebase_Auth-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" /> <img src="https://img.shields.io/badge/Go_Router-00B4D8?style=for-the-badge" /> <img src="https://img.shields.io/badge/Material_Design-757575?style=for-the-badge&logo=material-design&logoColor=white" /> </p>
-🚀 Projects
-🔁 AmazonSync
-Enterprise Shopify Application
-
-Shopify OAuth · Amazon Seller Central Integration · Inventory & Order Sync · Subscription Plans · Stripe Billing · Dynamic Amazon Product Schema · Dashboard & Admin Panel
-
-🏫 Hostel Management System
-Complete Hostel Administration
-
-Student Management · Room Allocation · Attendance · Fee Management · Complaint Management · Admin Dashboard · Reports
-
-💰 SpendWise
-Flutter Expense Tracker
-
-Firebase Authentication · Budget Management · Expense Tracking · Modern UI · Riverpod State Management
-
-✍️ Random Dev Quote
-<p align="center"> <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Quote" /> </p>
-🌱 Currently Learning
-<p align="center"> <code>Advanced Laravel</code> <code>System Design</code> <code>Flutter</code> <code>Firebase</code> <code>Performance Optimization</code> <code>Design Patterns</code> </p>
-⚡ Fun Facts
-🐞 I debug with dd() more than I sleep
-
-☕ Chai and clean code keep me going
-
-🧠 I believe in "debug before guessing"
-
-🤝 Connect with Me
-
-<p align="center">
-  <a href="https://github.com/programmer-brijesh">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <br/>
+  
+  <a href="https://github.com/Programmar-Brijesh">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=500&size=20&duration=4000&pause=1000&color=39FF88&center=true&vCenter=true&width=600&lines=PHP+%26+Laravel+Developer;Full-Stack+Web+Developer;API+Integration+Engineer;Flutter+%26+Dart+Developer;Software+Problem+Solver;AI-Assisted+Builder;DarkCypher+Project+Creator" alt="Typing Animation" />
   </a>
 
-  <a href="https://www.linkedin.com/in/brijesh-verma-2038bb294">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
+  <br/>
+  <p align="center" style="font-family: monospace;">
+    <code style="color: #00E5FF; background: transparent;">"Build with purpose. Debug with evidence. Ship with confidence."</code>
+  </p>
 
-  <a href="mailto:brijeshverma8896@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
+  <img src="assets/animated-divider.svg" alt="Divider" width="100%" />
+</div>
 
-  <a href="https://brijeshdeveloper.netlify.app/">
-    <img src="https://img.shields.io/badge/Portfolio-0A0A0A?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
-  </a>
+<div align="center">
+  <img src="assets/terminal-animation.svg" alt="Developer Terminal Boot Sequence" width="700" />
+</div>
+
+## ▰ About Me
+
+I am a **PHP & Laravel Developer**, cross-platform **Flutter Engineer**, and full-stack software problem solver building under the identity **PROGRAMMER BRIJESH** (project alias: **DarkCypher**). 
+
+My engineering focus is not just on writing code, but on building practical applications, debugging production-style anomalies, integrating complex external APIs (like Shopify and Amazon SP-API), and designing resilient software architectures. I leverage AI as a powerful development multiplier, but I rely on deep foundational understanding to decompose problems, review implementations, and enforce technical integrity.
+
+<div align="center">
+  <img src="assets/animated-divider.svg" alt="Divider" width="100%" />
+</div>
+
+## ▰ Core Technical Specializations
+
+<div align="center">
+  
+### ⚙️ Backend & Architecture
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=php,laravel,mysql,nodejs&theme=dark" />
+</a>
+<br/>
+<p><sub>REST APIs | Auth Workflows | Middleware | Request Lifecycle Debugging | Eloquent ORM | Schema Design</sub></p>
+
+### 💻 Frontend Development
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind&theme=dark" />
+</a>
+<br/>
+<p><sub>Blade Templates | Responsive UI | CSS Animations | Dashboard Interfaces | Component-Oriented Design</sub></p>
+
+### 📱 Mobile & Cross-Platform
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=flutter,dart,androidstudio,firebase&theme=dark" />
+</a>
+<br/>
+<p><sub>Cross-Platform Builds | Local Persistence | Firebase Auth | App UI/UX | State Management</sub></p>
+
+### 🔌 API & E-Commerce Integrations
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=graphql,postman,cloudflare,worker&theme=dark" />
+</a>
+<br/>
+<p><sub>Shopify Admin API | Amazon SP-API | OAuth Sessions | WebSockets | Inventory Sync | Payload Validation</sub></p>
+
+### 🛠 Cloud, Automation & Tooling
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,npm&theme=dark" />
+</a>
+<br/>
+<p><sub>Composer | CI/CD Workflows | Cloudflare Durable Objects | AI-Assisted Implementation</sub></p>
+
+</div>
+
+<div align="center">
+  <img src="assets/animated-divider.svg" alt="Divider" width="100%" />
+</div>
+
+## ▰ Project Showcase
+
+### 1️⃣ ZeoSync / AmazonSync
+**A high-performance Shopify-to-Amazon integration engine.**
+This Laravel-based application bridges Shopify stores with Amazon Seller Central, managing complex data synchronization, authentication workflows, and dynamic product mapping.
+
+<div align="center">
+  <img src="assets/zeosync-architecture.svg" alt="ZeoSync Architecture" width="800" />
+</div>
+
+* **Core Challenges Handled:** Shopify OAuth, Subscription/Billing logic, Amazon SP-API request optimization, dynamic variant schemas, caching, and resilient API error handling.
+* **Tech Stack:** Laravel, PHP, MySQL, Shopify API, Amazon SP-API, REST/GraphQL.
+* **Links:** [Repository](#repo-link-placeholder) | [Live Demo](#demo-link-placeholder)
+
+<br/>
+
+### 2️⃣ DarkCypher Chess
+**Cross-platform local and online multiplayer chess application.**
+Built entirely with Flutter and Dart, blending complex game-state management with real-time server-authoritative multiplayer infrastructure.
+
+<div align="center">
+  <img src="assets/chess-architecture.svg" alt="DarkCypher Chess Architecture" width="800" />
+</div>
+
+* **Core Challenges Handled:** Chess logic engines, WebSocket matchmaking, Firebase Auth integration, server-authoritative state via Cloudflare Durable Objects, and GitHub Actions Android build pipelines.
+* **Tech Stack:** Flutter, Dart, Firebase, WebSockets, Cloudflare Workers.
+* **Links:** [Repository](#repo-link-placeholder) | [Live Demo](#demo-link-placeholder)
+
+<br/>
+
+### 3️⃣ FilePilot & Developer Portfolio
+* **FilePilot:** An everyday utility application built in Flutter featuring image compression, PDF handling, and reusable cross-platform UI components.
+* **DarkCypher Portfolio:** A highly-animated, technically accurate digital identity utilizing HTML, CSS, JavaScript, and custom SVG motion graphics.
+
+<div align="center">
+  <img src="assets/animated-divider.svg" alt="Divider" width="100%" />
+</div>
+
+## ▰ Security & Engineering Philosophy
+
+**Cybersecurity Learning & Interests:** Web application security, OWASP fundamentals, exploring Linux/Kali Linux, understanding SQL injection and XSS in authorized environments. I believe secure software begins with understanding how insecure software breaks.
+
+**Debugging Protocol:** I treat bugs as evidence left behind at a crime scene. I rely on logs, request tracing, and payload validation over guesswork.
+
+<div align="center">
+  <img src="assets/animated-divider.svg" alt="Divider" width="100%" />
+</div>
+
+## ▰ System Telemetry (GitHub Statistics)
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://github-readme-stats.vercel.app/api?username=Programmar-Brijesh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=080B10&title_color=39FF88&icon_color=00E5FF&text_color=E8F0F7" alt="GitHub Stats" />
+      </td>
+      <td align="center">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Programmar-Brijesh&theme=tokyonight&hide_border=true&background=080B10&ring=00E5FF&fire=39FF88&currStreakNum=E8F0F7" alt="GitHub Streak" />
+      </td>
+    </tr>
+  </table>
+
+  ### 🐍 Contribution Activity Heatmap
+  <!-- The image below is generated by the GitHub Actions Workflow -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="dist/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="dist/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="dist/github-contribution-grid-snake-dark.svg">
+  </picture>
+  
+  <p><sub>*Statistics are fetched via external APIs and may occasionally be delayed.*</sub></p>
+</div>
+
+<div align="center">
+  <img src="assets/animated-divider.svg" alt="Divider" width="100%" />
+</div>
+
+## ▰ CONNECT WITH BRIJESH
+
+<div align="center">
+  <img src="assets/connection-radar.svg" alt="Connection Radar" width="800" />
+</div>
+
+<div align="center">
+  <p style="font-family: monospace; color: #93A4B7; font-size: 14px;">
+    <code style="color: #00E5FF; background: transparent;">> initiating_secure_handshake...</code><br/>
+    <code style="color: #39FF88; background: transparent;">> connection_established: true</code><br/><br/>
+    Whether you're looking for a full-stack engineer, a cross-platform mobile developer, or a technical collaborator, my communication channels are open.
+  </p>
+</div>
+
+<br/>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="220">
+        <a href="https://programmer-brijesh-portfolio.netlify.app/">
+          <img src="https://img.shields.io/badge/PORTFOLIO-DarkCypher-101720?style=for-the-badge&logo=dev.to&logoColor=39FF88" alt="Portfolio" />
+        </a>
+      </td>
+      <td>
+        <b>Portfolio Website</b><br/>
+        <sub>Explore my development work and technical journey.</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="220">
+        <a href="https://github.com/Programmar-Brijesh">
+          <img src="https://img.shields.io/badge/GITHUB-Programmar__Brijesh-101720?style=for-the-badge&logo=github&logoColor=00E5FF" alt="GitHub" />
+        </a>
+      </td>
+      <td>
+        <b>GitHub</b><br/>
+        <sub>Explore my code, repositories, and development projects.</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="220">
+        <a href="https://www.linkedin.com/in/brijesh-verma-2038bb294/">
+          <img src="https://img.shields.io/badge/LINKEDIN-Brijesh__Verma-101720?style=for-the-badge&logo=linkedin&logoColor=39FF88" alt="LinkedIn" />
+        </a>
+      </td>
+      <td>
+        <b>LinkedIn</b><br/>
+        <sub>Connect with me professionally.</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="220">
+        <a href="https://www.youtube.com/@Brijesh_Web_Dev">
+          <img src="https://img.shields.io/badge/YOUTUBE-Brijesh__Web__Dev-101720?style=for-the-badge&logo=youtube&logoColor=00E5FF" alt="YouTube" />
+        </a>
+      </td>
+      <td>
+        <b>YouTube</b><br/>
+        <sub>Watch my developer-related content.</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="220">
+        <a href="https://www.instagram.com/darkcypher.exe/">
+          <img src="https://img.shields.io/badge/INSTAGRAM-DarkCypher.exe-101720?style=for-the-badge&logo=instagram&logoColor=39FF88" alt="Instagram" />
+        </a>
+      </td>
+      <td>
+        <b>Instagram</b><br/>
+        <sub>Follow my DarkCypher identity and creative updates.</sub>
+      </td>
+    </tr>
+    <!-- To add Email or WhatsApp later, copy the row format above -->
+  </table>
+</div>
+
+<br/>
+<p align="center" style="font-family: monospace; color: #E8F0F7;">
+  <code>system.exit(0); // Mission Accomplished.</code>
 </p>
-☕ Support My Work
-<p align="center"> <a href="https://www.buymeacoffee.com/programmerbrijesh"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" /></a> </p>
-<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=footer" /> </p>
-
-
-<!--
-**Programmar-Brijesh/Programmar-Brijesh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
