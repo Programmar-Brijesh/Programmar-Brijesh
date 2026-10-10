@@ -1,0 +1,102 @@
+import os
+import random
+
+def generate_circuit_svg():
+    os.makedirs('assets', exist_ok=True)
+    
+    # Helper functions for procedural animation timing
+    def r_dur(): return f"{random.uniform(2.5, 5.5):.1f}s"
+    def r_del(): return f"{random.uniform(0.0, 3.0):.1f}s"
+    
+    # Base SVG Template
+    svg_content = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="100%" height="300">
+  <defs>
+    <style>
+      .bg {{ fill: #080B10; }}
+      .grid {{ stroke: #101720; stroke-width: 1.5; }}
+      
+      /* Static Traces */
+      .trace {{ fill: none; stroke-width: 2; opacity: 0.4; stroke-linejoin: round; }}
+      .cyan {{ stroke: #00E5FF; }}
+      .green {{ stroke: #39FF88; }}
+      
+      /* Animated Data Pulses */
+      .pulse {{ fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-dasharray: 20 200; }}
+      .pulse-cyan {{ stroke: #00E5FF; filter: drop-shadow(0 0 6px #00E5FF); }}
+      .pulse-green {{ stroke: #39FF88; filter: drop-shadow(0 0 6px #39FF88); }}
+      
+      /* Hardware Nodes */
+      .chip {{ fill: #080B10; stroke: #101720; stroke-width: 2; }}
+      .chip-core {{ fill: none; stroke: #39FF88; stroke-width: 1; stroke-dasharray: 4 4; }}
+      .node-base {{ fill: #080B10; stroke-width: 2; }}
+      .node-core {{ animation: blink 2.5s infinite alternate; }}
+      
+      @keyframes flow {{ 0% {{ stroke-dashoffset: 220; }} 100% {{ stroke-dashoffset: 0; }} }}
+      @keyframes flow-rev {{ 0% {{ stroke-dashoffset: -220; }} 100% {{ stroke-dashoffset: 0; }} }}
+      @keyframes blink {{ 0%, 100% {{ opacity: 0.3; }} 50% {{ opacity: 1; filter: drop-shadow(0 0 5px currentColor); }} }}
+    </style>
+    <pattern id="hexGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 40 10 L 40 30 L 20 40 L 0 30 L 0 10 Z" class="grid" fill="none"/>
+    </pattern>
+  </defs>
+
+  <!-- Background & Grid -->
+  <rect width="100%" height="100%" class="bg" />
+  <rect width="100%" height="100%" fill="url(#hexGrid)" />
+
+  <!-- Circuit Traces -->
+  <!-- Left Side Traces -->
+  <path id="tr1" d="M 0 50 L 150 50 L 200 100 L 330 100" class="trace cyan" />
+  <path id="tr2" d="M 0 150 L 100 150 L 150 200 L 330 200" class="trace green" />
+  <path id="tr3" d="M 0 250 L 250 250 L 300 200 L 330 200" class="trace cyan" />
+  
+  <!-- Right Side Traces -->
+  <path id="tr4" d="M 800 60 L 650 60 L 600 120 L 470 120" class="trace green" />
+  <path id="tr5" d="M 800 180 L 700 180 L 650 230 L 470 230" class="trace cyan" />
+  <path id="tr6" d="M 800 280 L 550 280 L 500 230 L 470 230" class="trace green" />
+
+  <!-- Top/Bottom Traces -->
+  <path id="tr7" d="M 250 0 L 250 50 L 300 100 L 330 100" class="trace green" />
+  <path id="tr8" d="M 550 0 L 550 70 L 500 120 L 470 120" class="trace cyan" />
+
+  <!-- Animated Data Pulses (Procedurally Timed) -->
+  <path d="M 0 50 L 150 50 L 200 100 L 330 100" class="pulse pulse-cyan" style="animation: flow {r_dur()} linear infinite {r_del()};" />
+  <path d="M 0 150 L 100 150 L 150 200 L 330 200" class="pulse pulse-green" style="animation: flow {r_dur()} linear infinite {r_del()};" />
+  <path d="M 0 250 L 250 250 L 300 200 L 330 200" class="pulse pulse-cyan" style="animation: flow {r_dur()} linear infinite {r_del()};" />
+  <path d="M 800 60 L 650 60 L 600 120 L 470 120" class="pulse pulse-green" style="animation: flow-rev {r_dur()} linear infinite {r_del()};" />
+  <path d="M 800 180 L 700 180 L 650 230 L 470 230" class="pulse pulse-cyan" style="animation: flow-rev {r_dur()} linear infinite {r_del()};" />
+  <path d="M 800 280 L 550 280 L 500 230 L 470 230" class="pulse pulse-green" style="animation: flow-rev {r_dur()} linear infinite {r_del()};" />
+  <path d="M 250 0 L 250 50 L 300 100 L 330 100" class="pulse pulse-green" style="animation: flow {r_dur()} linear infinite {r_del()};" />
+  <path d="M 550 0 L 550 70 L 500 120 L 470 120" class="pulse pulse-cyan" style="animation: flow {r_dur()} linear infinite {r_del()};" />
+
+  <!-- Central Processing Unit -->
+  <rect x="330" y="80" width="140" height="160" rx="8" class="chip" />
+  <rect x="345" y="95" width="110" height="130" rx="4" class="chip-core" />
+  <text x="400" y="150" font-family="monospace" font-size="14" fill="#39FF88" text-anchor="middle" letter-spacing="2">SYSTEM</text>
+  <text x="400" y="170" font-family="monospace" font-size="12" fill="#00E5FF" text-anchor="middle" letter-spacing="1">ONLINE</text>
+
+  <!-- Hardware Connection Nodes -->
+  <!-- Cyan Nodes -->
+  <circle cx="150" cy="50" r="5" class="node-base cyan" />
+  <circle cx="150" cy="50" r="2" class="node-core" fill="#00E5FF" />
+  <circle cx="250" cy="250" r="5" class="node-base cyan" />
+  <circle cx="250" cy="250" r="2" class="node-core" fill="#00E5FF" />
+  <circle cx="700" cy="180" r="5" class="node-base cyan" />
+  <circle cx="700" cy="180" r="2" class="node-core" fill="#00E5FF" />
+  
+  <!-- Green Nodes -->
+  <circle cx="100" cy="150" r="5" class="node-base green" />
+  <circle cx="100" cy="150" r="2" class="node-core" fill="#39FF88" />
+  <circle cx="650" cy="60" r="5" class="node-base green" />
+  <circle cx="650" cy="60" r="2" class="node-core" fill="#39FF88" />
+  <circle cx="550" cy="280" r="5" class="node-base green" />
+  <circle cx="550" cy="280" r="2" class="node-core" fill="#39FF88" />
+</svg>"""
+
+    with open('assets/cyber-circuit.svg', 'w') as f:
+        f.write(svg_content)
+    
+    print("Cyber circuit SVG generated successfully at assets/cyber-circuit.svg")
+
+if __name__ == "__main__":
+    generate_circuit_svg()
