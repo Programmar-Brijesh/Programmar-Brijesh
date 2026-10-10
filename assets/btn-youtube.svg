@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 90" width="380" height="90">
+  <defs>
+    <style>
+      .bg { fill: #0B0F16; rx: 6px; }
+      .border-glow { fill: none; stroke: #00E5FF; stroke-width: 3; rx: 6px; stroke-dasharray: 40 800; animation: run 3.2s linear infinite reverse; }
+      .title { font-family: 'Fira Code', monospace; font-size: 18px; fill: #E8F0F7; font-weight: bold; }
+      .sub { font-family: 'Fira Code', monospace; font-size: 12px; fill: #93A4B7; }
+      .icon { fill: #00E5FF; filter: drop-shadow(0 0 4px rgba(0,229,255,0.6)); animation: float 2.5s ease-in-out infinite alternate; }
+      @keyframes run { to { stroke-dashoffset: 840; } }
+      @keyframes float { 0% { transform: translateY(0px) scale(1.6); } 100% { transform: translateY(-3px) scale(1.6); } }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" class="bg" />
+  <rect width="99%" height="96%" x="2" y="2" class="border-glow" />
+  
+  <g transform="translate(25, 25)" class="icon">
+    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+  </g>
+  <text x="80" y="40" class="title">YOUTUBE CHANNEL</text>
+  <text x="80" y="65" class="sub">Watch my developer-related content.</text>
+</svg>

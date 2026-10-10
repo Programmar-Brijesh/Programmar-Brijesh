@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 90" width="380" height="90">
+  <defs>
+    <style>
+      .bg { fill: #0B0F16; rx: 6px; }
+      .border-glow { fill: none; stroke: #39FF88; stroke-width: 3; rx: 6px; stroke-dasharray: 40 800; animation: run 3s linear infinite; }
+      .title { font-family: 'Fira Code', monospace; font-size: 18px; fill: #E8F0F7; font-weight: bold; }
+      .sub { font-family: 'Fira Code', monospace; font-size: 12px; fill: #93A4B7; }
+      .icon { fill: #39FF88; filter: drop-shadow(0 0 4px rgba(57,255,136,0.6)); animation: float 2s ease-in-out infinite alternate; }
+      @keyframes run { to { stroke-dashoffset: -840; } }
+      @keyframes float { 0% { transform: translateY(0px) scale(1.6); } 100% { transform: translateY(-3px) scale(1.6); } }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" class="bg" />
+  <rect width="99%" height="96%" x="2" y="2" class="border-glow" />
+  
+  <g transform="translate(25, 25)" class="icon">
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+  </g>
+  <text x="80" y="40" class="title">PORTFOLIO WEBSITE</text>
+  <text x="80" y="65" class="sub">Explore my development work.</text>
+</svg>

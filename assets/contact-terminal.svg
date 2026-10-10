@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 140" width="100%" height="140">
+  <defs>
+    <style>
+      .bg { fill: #080B10; stroke: #101720; stroke-width: 2; rx: 8px; }
+      .txt { font-family: 'Fira Code', monospace; font-size: 15px; fill: #93A4B7; opacity: 0; animation: type 0.1s forwards; }
+      .cyan { fill: #00E5FF; font-weight: bold; }
+      .green { fill: #39FF88; font-weight: bold; }
+      .cursor { fill: #39FF88; animation: blink 1s infinite step-end; }
+      @keyframes type { to { opacity: 1; } }
+      @keyframes blink { 50% { opacity: 0; } }
+      .l1 { animation-delay: 0.5s; }
+      .l2 { animation-delay: 1.5s; }
+      .l3 { animation-delay: 2.5s; }
+      .l4 { animation-delay: 3.5s; }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" class="bg" />
+  <!-- Terminal Buttons -->
+  <circle cx="25" cy="25" r="6" fill="#FF5F56" />
+  <circle cx="45" cy="25" r="6" fill="#FFBD2E" />
+  <circle cx="65" cy="25" r="6" fill="#27C93F" />
+
+  <!-- Animated Text -->
+  <g transform="translate(35, 65)">
+    <text y="0" class="txt l1"><tspan class="cyan">brijesh@server:~$</tspan> ./initiating_secure_handshake.sh</text>
+    <text y="25" class="txt l2"><tspan class="green">> connection_established:</tspan> true</text>
+    <text y="50" class="txt l3"><tspan class="cyan">> radar_status:</tspan> scanning for collaborations...</text>
+    <text y="50" class="txt l4" style="fill: #E8F0F7;"><tspan class="cyan">> radar_status:</tspan> scanning for collaborations... [OPEN]<tspan class="cursor">_</tspan></text>
+  </g>
+</svg>
