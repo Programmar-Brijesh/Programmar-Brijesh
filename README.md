@@ -202,7 +202,6 @@ Built entirely with Flutter and Dart, blending complex game-state management wit
 <div align="center">
   <br/>
   <img src="assets/rotating-hud.svg" alt="HUD Interface" width="120" height="120" />
-  <img src="assets/darkcypher-chess-signature.svg" alt="DarkCypher Signature" width="120" height="120" />
   <br/>
   <p align="center" style="font-family: monospace; color: #E8F0F7; margin-top: 15px;">
     <code>system.exit(0); // Build with purpose. Debug with evidence. Ship with confidence.</code>
