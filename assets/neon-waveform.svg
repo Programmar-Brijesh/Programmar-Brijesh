@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 40" width="100%" height="40">
+  <defs>
+    <style>
+      .wave { fill: none; stroke-width: 2; stroke-dasharray: 8 8; animation: scroll 2s linear infinite; }
+      .w1 { stroke: #39FF88; opacity: 0.8; filter: drop-shadow(0 0 4px #39FF88); }
+      .w2 { stroke: #00E5FF; opacity: 0.5; animation-direction: reverse; }
+      @keyframes scroll { to { stroke-dashoffset: -16; } }
+    </style>
+  </defs>
+  <path d="M 0 20 C 150 -10, 250 50, 400 20 C 550 -10, 650 50, 800 20" class="wave w1" />
+  <path d="M 0 20 C 150 50, 250 -10, 400 20 C 550 50, 650 -10, 800 20" class="wave w2" />
+</svg>

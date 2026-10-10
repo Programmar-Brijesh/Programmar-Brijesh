@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" width="100%" height="180">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&amp;display=swap');
+      .box { fill: #0B0F16; stroke-width: 2; rx: 6px; }
+      .txt { font-family: 'Fira Code', monospace; fill: #E8F0F7; font-size: 13px; text-anchor: middle; }
+      .sub { font-family: 'Fira Code', monospace; fill: #93A4B7; font-size: 10px; text-anchor: middle; }
+      .link { fill: none; stroke: #00E5FF; stroke-width: 2; stroke-dasharray: 5 5; animation: ping 2s linear infinite; }
+      @keyframes ping { to { stroke-dashoffset: -10; } }
+      .glow-node { fill: #39FF88; filter: drop-shadow(0 0 4px #39FF88); }
+    </style>
+  </defs>
+
+  <!-- Connections -->
+  <path d="M 140 90 C 200 90, 200 50, 260 50" class="link" style="stroke:#FFCA28;" />
+  <path d="M 140 90 C 200 90, 200 130, 260 130" class="link" style="stroke:#39FF88;" />
+  <path d="M 380 50 C 440 50, 440 90, 500 90" class="link" style="stroke:#FFCA28;" />
+  <path d="M 380 130 C 440 130, 440 90, 500 90" class="link" style="stroke:#39FF88;" />
+  <path d="M 620 90 L 700 90" class="link" style="stroke:#00E5FF; stroke-width: 3;" />
+
+  <!-- Nodes -->
+  <rect x="20" y="60" width="120" height="60" class="box" style="stroke: #02569B;" />
+  <text x="80" y="90" class="txt">Flutter App</text>
+  <text x="80" y="105" class="sub">Dart Client</text>
+
+  <rect x="260" y="20" width="120" height="60" class="box" style="stroke: #FFCA28;" />
+  <text x="320" y="50" class="txt">Firebase</text>
+  <text x="320" y="65" class="sub">Authentication</text>
+
+  <rect x="260" y="100" width="120" height="60" class="box" style="stroke: #39FF88;" />
+  <text x="320" y="130" class="txt">WebSockets</text>
+  <text x="320" y="145" class="sub">Real-Time Data</text>
+
+  <rect x="500" y="55" width="120" height="70" class="box" style="stroke: #F38020;" />
+  <text x="560" y="85" class="txt">Cloudflare</text>
+  <text x="560" y="100" class="sub">Durable Objects</text>
+  <text x="560" y="115" class="sub">(Matchmaking)</text>
+
+  <rect x="700" y="60" width="80" height="60" class="box" style="stroke: #E8F0F7;" />
+  <text x="740" y="90" class="txt">Game</text>
+  <text x="740" y="105" class="sub">State</text>
+
+  <!-- Signal Indicators -->
+  <circle cx="140" cy="90" r="3" class="glow-node" />
+  <circle cx="500" cy="90" r="3" class="glow-node" style="fill:#00E5FF;" />
+</svg>

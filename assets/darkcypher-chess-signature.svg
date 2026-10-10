@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="120" height="120">
+  <defs>
+    <style>
+      .knight { fill: none; stroke: #39FF88; stroke-width: 2; filter: drop-shadow(0 0 6px rgba(57,255,136,0.6)); animation: float 3s ease-in-out infinite alternate; }
+      .base { stroke: #00E5FF; stroke-width: 1.5; stroke-dasharray: 20 10; animation: march 2s linear infinite; }
+      @keyframes float { 0% { transform: translateY(0px); } 100% { transform: translateY(-5px); } }
+      @keyframes march { to { stroke-dashoffset: -30; } }
+    </style>
+  </defs>
+  <!-- Minimalist Chess Knight Path -->
+  <g class="knight">
+    <path d="M 60 70 L 60 55 C 65 50, 70 40, 65 30 C 60 20, 50 15, 40 20 C 35 22, 30 30, 35 40 C 30 40, 25 45, 25 50 C 30 55, 35 55, 40 55 L 40 70 Z" />
+    <!-- Knight Eye -->
+    <circle cx="45" cy="30" r="1.5" fill="#00E5FF" stroke="none" />
+  </g>
+  
+  <!-- Cyber Base -->
+  <line x1="20" y1="78" x2="80" y2="78" class="base" />
+  <line x1="30" y1="83" x2="70" y2="83" stroke="#00E5FF" stroke-width="1" opacity="0.5" />
+</svg>

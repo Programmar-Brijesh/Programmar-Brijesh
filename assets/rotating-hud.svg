@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="120" height="120">
+  <defs>
+    <style>
+      .ring { fill: none; transform-origin: 50px 50px; }
+      .r1 { stroke: #39FF88; stroke-width: 1.5; stroke-dasharray: 40 10 10 10; animation: spin 8s linear infinite; opacity: 0.8; }
+      .r2 { stroke: #00E5FF; stroke-width: 1; stroke-dasharray: 10 20; animation: spin-rev 12s linear infinite; opacity: 0.6; }
+      .r3 { stroke: #E8F0F7; stroke-width: 0.5; stroke-dasharray: 2 4; animation: spin 20s linear infinite; opacity: 0.4; }
+      .core { fill: #39FF88; animation: pulse 2s ease-in-out infinite alternate; }
+      
+      @keyframes spin { 100% { transform: rotate(360deg); } }
+      @keyframes spin-rev { 100% { transform: rotate(-360deg); } }
+      @keyframes pulse { 0% { r: 2; opacity: 0.5; } 100% { r: 4; opacity: 1; filter: drop-shadow(0 0 5px #39FF88); } }
+    </style>
+  </defs>
+  <circle cx="50" cy="50" r="40" class="ring r1" />
+  <circle cx="50" cy="50" r="32" class="ring r2" />
+  <circle cx="50" cy="50" r="25" class="ring r3" />
+  
+  <!-- Crosshairs -->
+  <line x1="50" y1="5" x2="50" y2="15" stroke="#00E5FF" stroke-width="1" />
+  <line x1="50" y1="85" x2="50" y2="95" stroke="#00E5FF" stroke-width="1" />
+  <line x1="5" y1="50" x2="15" y2="50" stroke="#00E5FF" stroke-width="1" />
+  <line x1="85" y1="50" x2="95" y2="50" stroke="#00E5FF" stroke-width="1" />
+  
+  <circle cx="50" cy="50" class="core" />
+</svg>
