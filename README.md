@@ -117,13 +117,8 @@ Built entirely with Flutter and Dart, blending complex game-state management wit
     </tr>
   </table>
 
-  <!-- Contribution Heatmap / Snake Animation -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="dist/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="dist/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="dist/github-contribution-grid-snake-dark.svg">
-  </picture>
-</div>
+ <!-- Animated Procedural Cyber Circuit -->
+  <img src="assets/cyber-circuit.svg" alt="Cyber Circuit Animation" width="100%" />
 
 <div align="center">
   <img src="assets/neon-waveform.svg" alt="Waveform Divider" width="100%" />
