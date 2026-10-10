@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/hero-banner.svg" alt="Brijesh Verma - Cyber Circuit Banner" width="100%" />
+  <img src="assets/hero-banner.svg?v=1" alt="Brijesh Verma - Cyber Circuit Banner" width="100%" />
 
   <a href="https://github.com/Programmar-Brijesh">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=500&size=20&duration=4000&pause=1000&color=39FF88&center=true&vCenter=true&width=600&lines=PHP+%26+Laravel+Developer;Full-Stack+Developer;API+Integration+Developer;Flutter+%26+Dart+Developer;Software+Problem+Solver;DarkCypher+Project+Creator" alt="Typing Animation" />
