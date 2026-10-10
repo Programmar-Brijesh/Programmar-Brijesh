@@ -127,73 +127,31 @@ Built entirely with Flutter and Dart, blending complex game-state management wit
 ## ▰ CONNECT WITH BRIJESH
 
 <div align="center">
-  <p style="font-family: monospace; color: #93A4B7; font-size: 14px;">
-    <code style="color: #00E5FF; background: transparent;">> initiating_secure_handshake...</code><br/>
-    <code style="color: #39FF88; background: transparent;">> connection_established: true</code><br/><br/>
-    Open for professional technical collaboration, full-stack roles, and integration engineering.
-  </p>
+  <img src="assets/contact-terminal.svg" alt="Connection Terminal" width="800" />
 </div>
 
+<br/>
+
+<!-- Premium Animated Cyber Cards Grid -->
 <div align="center">
-  <table>
-    <tr>
-      <td align="center" width="220">
-        <a href="https://programmer-brijesh-portfolio.netlify.app/">
-          <img src="https://img.shields.io/badge/PORTFOLIO-DarkCypher-101720?style=for-the-badge&logo=dev.to&logoColor=39FF88" alt="Portfolio" />
-        </a>
-      </td>
-      <td>
-        <b>Portfolio Website</b><br/>
-        <sub>Explore my development work and technical journey.</sub>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="220">
-        <a href="https://github.com/Programmar-Brijesh">
-          <img src="https://img.shields.io/badge/GITHUB-Programmar__Brijesh-101720?style=for-the-badge&logo=github&logoColor=00E5FF" alt="GitHub" />
-        </a>
-      </td>
-      <td>
-        <b>GitHub</b><br/>
-        <sub>Explore my code, repositories, and development projects.</sub>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="220">
-        <a href="https://www.linkedin.com/in/brijesh-verma-2038bb294/">
-          <img src="https://img.shields.io/badge/LINKEDIN-Brijesh__Verma-101720?style=for-the-badge&logo=linkedin&logoColor=39FF88" alt="LinkedIn" />
-        </a>
-      </td>
-      <td>
-        <b>LinkedIn</b><br/>
-        <sub>Connect with me professionally.</sub>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="220">
-        <a href="https://www.youtube.com/@Brijesh_Web_Dev">
-          <img src="https://img.shields.io/badge/YOUTUBE-Brijesh__Web__Dev-101720?style=for-the-badge&logo=youtube&logoColor=00E5FF" alt="YouTube" />
-        </a>
-      </td>
-      <td>
-        <b>YouTube</b><br/>
-        <sub>Watch my developer-related content.</sub>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="220">
-        <a href="https://www.instagram.com/darkcypher.exe/">
-          <img src="https://img.shields.io/badge/INSTAGRAM-DarkCypher.exe-101720?style=for-the-badge&logo=instagram&logoColor=39FF88" alt="Instagram" />
-        </a>
-      </td>
-      <td>
-        <b>Instagram</b><br/>
-        <sub>Follow my DarkCypher identity and creative updates.</sub>
-      </td>
-    </tr>
-  </table>
+  <a href="https://programmer-brijesh-portfolio.netlify.app/">
+    <img src="assets/btn-portfolio.svg" alt="Portfolio" width="380" />
+  </a>
+  <a href="https://github.com/Programmar-Brijesh">
+    <img src="assets/btn-github.svg" alt="GitHub" width="380" />
+  </a>
+  <br/>
+  <a href="https://www.linkedin.com/in/brijesh-verma-2038bb294/">
+    <img src="assets/btn-linkedin.svg" alt="LinkedIn" width="380" />
+  </a>
+  <a href="https://www.youtube.com/@Brijesh_Web_Dev">
+    <img src="assets/btn-youtube.svg" alt="YouTube" width="380" />
+  </a>
+  <br/>
+  <a href="https://www.instagram.com/darkcypher.exe/">
+    <img src="assets/btn-instagram.svg" alt="Instagram" width="380" />
+  </a>
 </div>
-
 <div align="center">
   <br/>
   <img src="assets/rotating-hud.svg" alt="HUD Interface" width="120" height="120" />
