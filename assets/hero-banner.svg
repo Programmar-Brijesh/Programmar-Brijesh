@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="200">
+  <defs>
+    <style>
+      /* Imported Orbitron and Fira Code */
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&amp;family=Orbitron:wght@700;900&amp;display=swap');
+      
+      /* Backgrounds */
+      .bg { fill: #080B10; }
+      .grid { stroke: #101720; stroke-width: 1.5; animation: gridPulse 3s infinite alternate ease-in-out; }
+      
+      /* ⚡ HARDCORE GLITCH TYPOGRAPHY ⚡ */
+      .text-base { font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 46px; fill: #E8F0F7; letter-spacing: 4px; transform: skewX(-5deg); animation: mainGlitch 3.5s infinite; filter: drop-shadow(0 0 8px rgba(57,255,136,0.5)); }
+      .text-glitch-1 { font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 46px; fill: #00E5FF; letter-spacing: 4px; opacity: 0; animation: glitchCyan 3.5s infinite; }
+      .text-glitch-2 { font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 46px; fill: #39FF88; letter-spacing: 4px; opacity: 0; animation: glitchGreen 3.5s infinite; }
+      
+      .text-title { font-family: 'Fira Code', monospace; font-size: 18px; fill: #39FF88; letter-spacing: 4px; animation: titleGlow 2s infinite alternate; }
+      .text-sub { font-family: 'Fira Code', monospace; font-size: 13px; fill: #00E5FF; opacity: 0.9; }
+      
+      /* Hardware Tracks */
+      .track { fill: none; stroke: #1A2634; stroke-width: 2; }
+      
+      /* Seamless Flowing Data Streams */
+      .stream { fill: none; stroke-width: 3; stroke-linecap: round; }
+      .stream-cyan { stroke: #00E5FF; filter: drop-shadow(0 0 8px #00E5FF); stroke-dasharray: 100 400; animation: flowCyan 3s linear infinite; }
+      .stream-green { stroke: #39FF88; filter: drop-shadow(0 0 8px #39FF88); stroke-dasharray: 100 400; animation: flowGreen 3.5s linear infinite; }
+      .stream-cyan-fast { stroke: #00E5FF; filter: drop-shadow(0 0 8px #00E5FF); stroke-dasharray: 60 440; animation: flowCyan 1.8s linear infinite; }
+      
+      /* Glowing Hardware Nodes */
+      .node { fill: #39FF88; animation: nodePulse 1.5s infinite alternate; }
+      .node-cyan { fill: #00E5FF; animation: nodePulseCyan 2s infinite alternate; }
+      
+      /* Scanning Laser */
+      .scan-line { fill: none; stroke: #39FF88; stroke-width: 1.5; opacity: 0.3; filter: drop-shadow(0 0 6px #39FF88); animation: scan 2.5s linear infinite; }
+      
+      /* Particles */
+      .particle { fill: #00E5FF; animation: floatUp linear infinite; }
+      
+      /* ---------------- KEYFRAMES ---------------- */
+      @keyframes flowCyan { to { stroke-dashoffset: -500; } } 
+      @keyframes flowGreen { to { stroke-dashoffset: 500; } }
+      @keyframes gridPulse { 0% { stroke: rgba(16, 23, 32, 0.8); } 100% { stroke: rgba(0, 229, 255, 0.25); } }
+      
+      /* 🔥 NEW RGB SPLIT GLITCH ANIMATIONS 🔥 */
+      @keyframes mainGlitch {
+        0%, 6%, 8%, 16%, 18%, 46%, 48%, 100% { transform: skewX(-5deg); opacity: 1; filter: drop-shadow(0 0 8px rgba(57,255,136,0.5)); }
+        7% { transform: skewX(-25deg) translateX(-4px); opacity: 0.8; filter: none; }
+        17% { transform: skewX(15deg) translateX(3px); opacity: 0.5; filter: none; }
+        47% { transform: skewX(-5deg) translateY(3px); opacity: 0.9; filter: none; }
+      }
+      @keyframes glitchCyan {
+        0%, 6%, 8%, 16%, 18%, 46%, 48%, 100% { opacity: 0; transform: skewX(-5deg) translateX(0); }
+        7% { opacity: 1; transform: skewX(-25deg) translateX(-12px) translateY(-2px); }
+        17% { opacity: 0.8; transform: skewX(15deg) translateX(8px); }
+        47% { opacity: 1; transform: skewX(-5deg) translateX(-6px); }
+      }
+      @keyframes glitchGreen {
+        0%, 6%, 8%, 16%, 18%, 46%, 48%, 100% { opacity: 0; transform: skewX(-5deg) translateX(0); }
+        7% { opacity: 1; transform: skewX(-25deg) translateX(12px) translateY(2px); }
+        17% { opacity: 0.8; transform: skewX(15deg) translateX(-8px); }
+        47% { opacity: 1; transform: skewX(-5deg) translateX(6px); }
+      }
+      
+      @keyframes titleGlow { 0% { filter: drop-shadow(0 0 4px rgba(57,255,136,0.4)); } 100% { filter: drop-shadow(0 0 12px rgba(57,255,136,0.9)); } }
+      @keyframes nodePulse { 0% { r: 3; filter: drop-shadow(0 0 4px #39FF88); } 100% { r: 6; filter: drop-shadow(0 0 15px #39FF88); } }
+      @keyframes nodePulseCyan { 0% { r: 3; filter: drop-shadow(0 0 4px #00E5FF); } 100% { r: 5; filter: drop-shadow(0 0 15px #00E5FF); } }
+      
+      @keyframes scan { 0% { transform: translateY(-30px); } 100% { transform: translateY(230px); } }
+      @keyframes floatUp { 0% { transform: translateY(20px) scale(0.5); opacity: 0; } 50% { opacity: 0.8; filter: drop-shadow(0 0 5px currentColor); } 100% { transform: translateY(-40px) scale(1.5); opacity: 0; } }
+      
+      /* Rotating HUD Rings */
+      .hud-spin { transform-origin: center; animation: spin 12s linear infinite; }
+      .hud-spin-rev { transform-origin: center; animation: spinRev 18s linear infinite; }
+      @keyframes spin { 100% { transform: rotate(360deg); } }
+      @keyframes spinRev { 100% { transform: rotate(-360deg); } }
+    </style>
+    
+    <pattern id="hexGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 40 10 L 40 30 L 20 40 L 0 30 L 0 10 Z" class="grid" fill="none"/>
+    </pattern>
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#39FF88" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#080B10" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  
+  <rect width="100%" height="100%" class="bg" />
+  <rect width="100%" height="100%" fill="url(#hexGrid)" />
+  <rect width="100%" height="100%" fill="url(#centerGlow)" />
+  
+  <!-- HUD Corner Markers -->
+  <g stroke="#00E5FF" stroke-width="2" opacity="0.5">
+    <path d="M 15 35 L 15 15 L 35 15" fill="none"/>
+    <path d="M 785 35 L 785 15 L 765 15" fill="none"/>
+    <path d="M 15 165 L 15 185 L 35 185" fill="none"/>
+    <path d="M 785 165 L 785 185 L 765 185" fill="none"/>
+  </g>
+  
+  <!-- Scanning Laser Line -->
+  <line x1="0" y1="0" x2="800" y2="0" class="scan-line" />
+  
+  <!-- Rotating Cyber Rings -->
+  <g transform="translate(400, 100)" opacity="0.2">
+    <circle cx="0" cy="0" r="190" fill="none" stroke="#00E5FF" stroke-width="1.5" stroke-dasharray="4 12" class="hud-spin" />
+    <circle cx="0" cy="0" r="170" fill="none" stroke="#39FF88" stroke-width="2" stroke-dasharray="30 40 10 40" class="hud-spin-rev" />
+  </g>
+  
+  <!-- 1. BASE HARDWARE TRACKS -->
+  <g class="track">
+    <path d="M -50 50 L 150 50 L 200 100 L 850 100" />
+    <path d="M 850 160 L 600 160 L 550 110 L -50 110" />
+    <path d="M 120 -50 L 120 40 L 170 90 L 170 250" />
+    <path d="M 680 250 L 680 140 L 630 90 L 630 -50" />
+    <path d="M 0 180 L 100 180 L 150 130 L 400 130" />
+    <path d="M 280 190 L 330 190 L 350 170 L 520 170" />
+    <path d="M 720 60 L 670 60 L 620 10 L 450 10" />
+  </g>
+  
+  <!-- 2. ANIMATED DATA STREAMS -->
+  <g class="stream">
+    <path d="M -50 50 L 150 50 L 200 100 L 850 100" class="stream-cyan" />
+    <path d="M -50 50 L 150 50 L 200 100 L 850 100" class="stream-cyan-fast" style="animation-delay: 1.2s;" />
+    <path d="M 850 160 L 600 160 L 550 110 L -50 110" class="stream-green" />
+    <path d="M 120 -50 L 120 40 L 170 90 L 170 250" class="stream-cyan" style="animation-duration: 2.2s;" />
+    <path d="M 680 250 L 680 140 L 630 90 L 630 -50" class="stream-green" style="animation-duration: 2.6s;" />
+    <path d="M 0 180 L 100 180 L 150 130 L 400 130" class="stream-cyan" style="animation-duration: 3.2s; animation-direction: reverse;" />
+    <path d="M 280 190 L 330 190 L 350 170 L 520 170" class="stream-green" style="animation-duration: 2.5s;" />
+    <path d="M 720 60 L 670 60 L 620 10 L 450 10" class="stream-cyan" style="animation-duration: 2.8s; animation-direction: reverse;" />
+  </g>
+
+  <!-- 3. GLOWING HARDWARE NODES -->
+  <circle cx="150" cy="50" class="node-cyan" />
+  <circle cx="600" cy="160" class="node" />
+  <circle cx="120" cy="40" class="node-cyan" style="animation-delay: 0.5s;" />
+  <circle cx="680" cy="140" class="node" style="animation-delay: 1s;" />
+  <circle cx="100" cy="180" class="node-cyan" style="animation-delay: 1.5s;" />
+  <circle cx="330" cy="190" class="node" style="animation-delay: 0.3s;" />
+  <circle cx="670" cy="60" class="node-cyan" style="animation-delay: 0.7s;" />
+  
+  <!-- 4. AMBIENT DATA PARTICLES -->
+  <circle cx="220" cy="160" r="1.5" class="particle" style="animation-duration: 3.5s; animation-delay: 0s;" />
+  <circle cx="650" cy="70" r="2.5" class="particle" style="fill: #39FF88; animation-duration: 3s; animation-delay: 1.2s;" />
+  <circle cx="380" cy="180" r="2" class="particle" style="animation-duration: 4.5s; animation-delay: 0.5s;" />
+  <circle cx="120" cy="120" r="1.5" class="particle" style="fill: #39FF88; animation-duration: 5s; animation-delay: 2s;" />
+  <circle cx="740" cy="140" r="2" class="particle" style="animation-duration: 4s; animation-delay: 0.8s;" />
+  <circle cx="60" cy="80" r="2" class="particle" style="fill: #39FF88; animation-duration: 5s; animation-delay: 0.2s;" />
+
+  <!-- 5. ⚡ TRUE MULTI-LAYER GLITCH TYPOGRAPHY ⚡ -->
+  <g transform="translate(400, 95)">
+    <!-- Glitch Layers -->
+    <text x="0" y="0" text-anchor="middle" class="text-glitch-1">BRIJESH VERMA</text>
+    <text x="0" y="0" text-anchor="middle" class="text-glitch-2">BRIJESH VERMA</text>
+    <!-- Base Layer -->
+    <text x="0" y="0" text-anchor="middle" class="text-base">BRIJESH VERMA</text>
+  </g>
+  
+  <text x="400" y="135" text-anchor="middle" class="text-title">PROGRAMMER BRIJESH</text>
+  <text x="400" y="165" text-anchor="middle" class="text-sub">[ DarkCypher Identity • Application Builder ]</text>
+</svg>
