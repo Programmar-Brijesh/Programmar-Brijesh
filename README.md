@@ -134,7 +134,7 @@ Built entirely with Flutter and Dart, blending complex game-state management wit
 
 <!-- Premium Animated Cyber Cards Grid -->
 <div align="center">
-  <a href="https://programmer-brijesh-portfolio.netlify.app/">
+  <a href="developerbrijesh.in">
     <img src="assets/btn-portfolio.svg" alt="Portfolio" width="380" />
   </a>
   <a href="https://github.com/Programmar-Brijesh">
